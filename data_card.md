@@ -7,7 +7,7 @@
 Write a short summary describing your dataset (limit
 200 words). Include information about the content
 and topic of the data, sources and motivations for the
-dataset, benefits and the problems or use cases it is
+dataset, benefits and the problems or use cases it is 
 suitable for.
 
 The paper introduces a publicly released **IMDB movie review dataset** for sentiment analysis. The dataset contains **50,000 movie reviews** collected from IMDB, with an **even number of positive and negative reviews**. To focus on clear polarity classification, the dataset includes only **highly polarized reviews**: reviews with score **≤ 4/10** are labeled negative, and reviews with score **≥ 7/10** are labeled positive; **neutral reviews are excluded**. The dataset is evenly split into **25,000 training** and **25,000 test** reviews, and uses **disjoint sets of movies** for training and testing to reduce leakage from movie-specific words and repeated content patterns. The dataset was introduced as a **more robust benchmark** than smaller prior sentiment datasets and is suitable for **research on sentiment classification, benchmark evaluation, and sentiment-aware representation learning**.
